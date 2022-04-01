@@ -13,9 +13,10 @@ header {
     background-image: url("./bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     text-align: center;
     height: 100vh;
-    padding-top: 150px;
+    padding-top: 80px;
 }
 
 input[type=text] {

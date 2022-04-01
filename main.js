@@ -25,10 +25,10 @@ fetch(apiGet)
         var cloudsValue2 = data['clouds']['all']
 
         showAll.innerHTML = getMal
-        showTemp.innerHTML = "Temparature :" + tempValue2;
-        showDesc.innerHTML = "Desc :" + descValue2;
-        showClouds.innerHTML = "Clouds :" + cloudsValue2;
-        showPrasure.innerHTML = "Pressure - " + prasure;
+        showTemp.innerHTML = "Temparature : " + tempValue2;
+        showDesc.innerHTML = "Desc : " + descValue2;
+        showClouds.innerHTML = "Clouds : " + cloudsValue2;
+        showPrasure.innerHTML = "Pressure : " + prasure;
 
     })
 
@@ -46,10 +46,10 @@ button.addEventListener('click', function(name) {
             var cloudsValue = data['clouds']['all']
 
             main.innerHTML = nameValue;
-            desc.innerHTML = "Desc - " + descValue;
-            temp.innerHTML = "Temp - " + tempValue;
-            name2.innerHTML = "pressure - " + prasure;
-            clouds.innerHTML = "clouds - " + cloudsValue
+            desc.innerHTML = "Desc : " + descValue;
+            temp.innerHTML = "Temp : " + tempValue;
+            name2.innerHTML = "pressure : " + prasure;
+            clouds.innerHTML = "clouds : " + cloudsValue
             input.value = "";
 
         })
