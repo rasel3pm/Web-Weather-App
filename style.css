@@ -26,7 +26,7 @@ input[type=text] {
     outline: none;
     border-radius: 5px;
     height: 50px !important;
-    color: black;
+    color: rgb(46, 21, 209);
     letter-spacing: 2px;
 }
 
@@ -49,18 +49,42 @@ input[type=submit]:hover {
 
 .container {
     display: flex;
-    /* justify-content: space-between;
-    align-items: center; */
 }
 
 .display,
 .tody-update {
-    width: 250px;
-    height: 180px;
+    width: 400px;
+    height: 200px;
     background-color: rgb(116, 119, 119);
     border-radius: 5px;
     text-align: center;
     padding: 20px 0px;
     margin: 50px auto;
     color: white;
+}
+
+.display h3,
+.tody-update h3 {
+    color: aqua;
+    font-weight: 400;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .display,
+    .tody-update {
+        width: 300px;
+        height: 200px;
+        padding: 10px 0px;
+        margin: 15px auto;
+    }
+    input[type=text] {
+        width: 300px;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 5px;
+        height: 50px !important;
+    }
 }

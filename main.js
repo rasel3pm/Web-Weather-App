@@ -33,7 +33,7 @@ fetch(apiGet)
     })
 
 
-
+//add even 
 button.addEventListener('click', function(name) {
     fetch('https://api.openweathermap.org/data/2.5/weather?q=' + input.value + '&APPID=75da90463dfd47aa705856bbbdd6d3d6')
 
